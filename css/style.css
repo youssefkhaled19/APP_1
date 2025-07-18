@@ -3,3 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.l_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+height:400px;
+backdrop-filter:blur(10px);
+border: 1px solid black;
+box-shadow:0 4px 24px rgba(0,0,0,0.15) ;
+justify-content:space-around;
+}
+input{
+    width:250px;
+    height:40px;
+    padding: 8px 12px;
+        font-size: 16px;
+        border-radius: 3px;
+        border: 1px solid black
+}
+.pic{
+
+}
