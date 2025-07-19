@@ -12,7 +12,7 @@ submit.addEventListener('click', function(event) {
         username_n.value === username &&
         password_n.value === password
     ) {
-        window.location.href = 'index.html';
+        window.location.href = 'main.html';
     } else {
          
         let p = document.createElement('p');

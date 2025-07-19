@@ -1,51 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>LEC</title>
-  <link rel="stylesheet" href="css/index.css">
-  <link rel="stylesheet" href="css/all.css"> <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <meta charset="utf-8">
+        <title>login page</title>
 </head>
 <body>
 
-  <header>
-    <h1>Shai Blban Shop</h1>
-    
-    <nav>
-      <ul>
-        <li id="categories">Categories</li>
-        <li id="contact">Contact</li>
-        <li id="help">Help</li>
-      </ul>
-    </nav>
+<div class="l_parent">
+    <h1>login</h1>
+    <input type="text" class="input" placeholder="username" id="username">
+    <input type="password" class="input" id="password" placeholder="password">
+    <input type="submit" class="input" id="submit" value="Login">
+    <a href="signin.html">don't have an account</a>
+</div>
 
-    <div class="cart-container">
-      <h3 id="h_h3">Hello User</h3>
-      <div class="cart-icon">
-        <i class="fas fa-shopping-cart"id="cart22"></i>
-        <span class="cart-count" id="cart-count">0</span>
-      </div>
-    </div>
-  </header>
+<div class="pic">
+    <img src="image/image2.jpg" alt="image">
+</div>
 
-  <section>
-    <div class="products">
-     <div class="product1" id="1">
-        <img src="image/image3.jpg" alt="" class="img1">
-        <h2 id="p_h2">
-                watch
-        </h2>
-       <h3 id="price">100$</h3>   
-           
-           <button  id="add_to_cart">add to cart</button>
-
-
-
-     </div>
-     
-    </div>
-  </section>
-
-  <script src="script/index.js"></script>
+<script src="script/login.js"></script>
 </body>
 </html>

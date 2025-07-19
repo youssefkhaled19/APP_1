@@ -26,7 +26,7 @@ sub.addEventListener('click', function(event) {
         localStorage.setItem('password', password.value);
         localStorage.setItem('email', email.value);
         setTimeout(() => {
-            window.location.href = 'login.html';
+            window.location.href = 'index.html';
         }, 1500);
     }
 });
